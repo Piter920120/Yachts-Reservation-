@@ -3,15 +3,24 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "bootstrap": "^4.3.1",
+    "firebase": "^5.8.4",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "3.0.1"
+  },
+  "devDependencies": {
+    "react-scripts": "2.1.5",
+    "yeoman-generator": "3.2.0",
+    "yo": "2.0.5"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "generate:component": "yo ./generators/component/index.js"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -21,11 +30,7 @@
       ">0.2%",
       "not dead",
       "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
     ]
+   
   }
 }

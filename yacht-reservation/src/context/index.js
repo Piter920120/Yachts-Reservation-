@@ -1,1 +1,1 @@
-import './firebaseSetup';
+import '../firebaseSetup';
